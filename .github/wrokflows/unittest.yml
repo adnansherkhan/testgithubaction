@@ -35,4 +35,5 @@ jobs:
 
       # step 5 : run tests
       - name: Run tests
-        run: pytest
+        run: PYTHONPATH=src pytest tests/
+
